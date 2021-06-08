@@ -1,0 +1,53 @@
+.side-menu {
+  background: rgba(153, 71, 71, 0.329);
+  display: inline;
+  position: absolute;
+}
+
+.side-menu header {
+  position: absolute;
+  background: rgb(160, 65, 65);
+  height: 100vh;
+  width: 70vw;
+  z-index: 1;
+}
+
+.side-menu header nav {
+  position: absolute;
+}
+
+.side-menu i {
+  position: absolute;
+  z-index: 0;
+  font-size: 1.5rem;
+  background: rgb(177, 177, 177);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 14px 18px 31px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 14px 18px 31px 5px rgba(0, 0, 0, 0.4);
+}
+
+.exit {
+  background: rgb(18, 157, 199);
+  width: 30vw;
+  height: 100vh;
+  margin-left: 70vw;
+  position: absolute;
+}
+
+.content {
+  background-image: url('./img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content h1{
+color: white;
+padding-top: 10%;
+}
+
+.button-group button{
+  font-size: 2rem;
+}
